@@ -1,4 +1,10 @@
-pip install python-dotenv
+!pip install python-dotenv
+!pip install streamlit
+!pip install pdf2image
+!apt-get install poppler-utils
+!pip install pymupdf
+
+
 from dotenv import load_dotenv
 
 load_dotenv()
